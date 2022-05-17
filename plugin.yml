@@ -1,0 +1,17 @@
+---
+name: Test
+version: 0.0.1
+main: KaitohDev\Test\Main
+api: 4.3.3
+src-namespace-prefix: KaitohDev\Test
+
+commands: 
+  online:
+    description: "Online Players Command"
+    permission: online.cmd
+    
+permissions:
+  online.cmd:
+    description: "online permission"
+    default: true
+...
